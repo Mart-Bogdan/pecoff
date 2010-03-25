@@ -1,5 +1,5 @@
 Name:          pecoff
-Version:       0.1
+Version:       0.11
 License:       BSD3
 License-file:  LICENSE
 Category:      Data
@@ -15,6 +15,6 @@ Description:   Parser for PE/COFF format.
 Data-Files:    tests/Test.hs
 
 library
-    build-depends:   base, bytestring, containers, binary
+    build-depends:   base >= 4 && < 5, bytestring, containers, binary
     hs-source-dirs:  src
     exposed-modules: Data.Pecoff
